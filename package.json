@@ -13,12 +13,12 @@
   "angular-cli": {},
   "scripts": {
     "start": "ng serve --port 3333",
-    "startnode": "node ./bin/www",
+    "startnode": "npm run build && node ./bin/www",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
-    "build": "npm install && ng build --prod --aot=false"
+    "build": "ng build --prod --aot=false"
   },
   "private": true,
   "dependencies": {
