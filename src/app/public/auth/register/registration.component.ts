@@ -6,7 +6,7 @@ import {CognitoCallback} from "../../../service/cognito.service";
 export class RegistrationUser {
     name: string;
     email: string;
-    phone_number: string;
+    // phone_number: string;
     password: string;
 }
 /**
